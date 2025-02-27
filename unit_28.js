@@ -6,5 +6,8 @@
 
 const goods_1 = new Goods('apple', 23.5, 'https://cdn0.iconfinder.com/data/icons/fruity-3/512/Apple-48.png', 400 );
 console.log(goods_1);
-// И теперь выведем на страницу
+
+const goods_2 = new Goods('watermelon',88, '653252_watermelon_food_fruit_meal_sweet_icon.png',20)
+    // И теперь выведем на страницу
 document.querySelector('.out-3').append(goods_1.draw());
+document.querySelector('.out-4').append(goods_2.draw())
