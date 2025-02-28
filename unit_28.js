@@ -44,7 +44,3 @@ console.log(v13.validate());
 console.log(v13.isValid);
 console.log(v13.error_message);
 
-const v14 = new Valid2('', 'qwertyu');
-console.log(v14.validate());
-console.log(v14.isValid);
-console.log(v14.error_message);
