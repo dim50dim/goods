@@ -27,10 +27,10 @@
 
 // const valid = new Valid ('adfafda@proton.me','adfafda343433',false);
 // console.log(valid);
-const v1 = new Valid('test@ua.ua', 'qwertyu');
-console.log(v1.validate());
-console.log(v1.isValid);
+// const v1 = new Valid('test@ua.ua', 'qwertyu');
+// console.log(v1.validate());
+// console.log(v1.isValid);
  
-const v2 = new Valid('test@ua.ua', 'qwe');
-console.log(v2.validate());
-console.log(v2.isValid);
+// const v2 = new Valid('test@ua.ua', 'qwe');
+// console.log(v2.validate());
+// console.log(v2.isValid);
