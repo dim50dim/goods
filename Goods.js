@@ -54,4 +54,6 @@ Goods.prototype.draw() = function {
     div.append(header_main);
     div.append(paragraph);
     div.append(image);
+
+    return div;
 }
