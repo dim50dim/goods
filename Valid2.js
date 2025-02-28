@@ -9,6 +9,15 @@ class Valid2 {
         super.validate();
         this.error_message = '';
 
-        if(isValide)
+        if(this.isValid === false) {
+            this.error_message = 'password error';
+            return this.isValid;
+        }
+
+         if(this.email === ''){
+            this.isValid = false;
+            this.error_message = 'email error';
+            return this.isValid;
+         }
     }
 }
