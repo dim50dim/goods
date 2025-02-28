@@ -25,5 +25,5 @@
 
 // document.querySelector('.out-7').append(goods_7.draw());
 
-const valid = new Valid ('adfafda@proton.me','adfafda343433',false);
-console.log(valid);
+// const valid = new Valid ('adfafda@proton.me','adfafda343433',false);
+// console.log(valid);
