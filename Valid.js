@@ -2,10 +2,10 @@
 
 
 class Valid {
-    constructor(email,password){
+    constructor(email,password,isValid){
         this.email = email;
         this.password = password;
-        this.isValid = false;
+        this.isValid = this.isValid
     }
     validate() {
         this.isValid = false;
