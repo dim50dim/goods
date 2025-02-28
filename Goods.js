@@ -36,7 +36,7 @@ function Goods(name,price,image,count){
     this.count = count;
 }
 
-Goods.prototype.draw() = function {
+Goods.prototype.draw = function () {
     const div = document.createElement('div');
     div.classList.add('goods');
 
@@ -48,8 +48,8 @@ Goods.prototype.draw() = function {
     paragraph.innerHTML = this.price;
 
     const image = document.createElement('img');
-    img.src = this.image;
-    img.alt = this.name;
+    image.src = this.image;
+    image.alt = this.name;
 
     div.append(header_main);
     div.append(paragraph);
