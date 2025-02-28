@@ -20,7 +20,8 @@
 // const goods_2 = new Goods2('apple', 23.5, 'https://cdn0.iconfinder.com/data/icons/fruity-3/512/Apple-48.png', 400, true );
 // console.log(goods_2);
 
-const goods_7 = new Goods2('apple', 23.5, 'https://cdn0.iconfinder.com/data/icons/fruity-3/512/Apple-48.png', 400, false);
-console.log(goods_7);
+// const goods_7 = new Goods2('apple', 23.5, 'https://cdn0.iconfinder.com/data/icons/fruity-3/512/Apple-48.png', 400, false);
+// console.log(goods_7);
 
-document.querySelector('.out-7').append(goods_7.draw());
+// document.querySelector('.out-7').append(goods_7.draw());
+
