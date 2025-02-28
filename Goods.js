@@ -5,6 +5,7 @@ class Goods {
         this.image = image;
         this.count = count;
     }
+
     draw(){
        const div = document.createElement('div');
        div.classList.add('goods');
